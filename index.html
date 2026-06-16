@@ -1,19 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Missão Sustentável</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
 
   <div class="container">
+
     <h1>🌱 Missão Sustentável</h1>
-    <p class="subtitle">Economia de água 💧 e energia ⚡</p>
+    <p>Economia de água 💧 e energia ⚡</p>
 
-    <div class="scoreboard">
-      <div>🌱 Pontos: <span id="score">0</span></div>
+    <div class="score">
+      Pontos: <span id="score">0</span>
     </div>
 
-    <div id="game-box" class="card">
-      <h2 id="question">Clique para começar!</h2>
+    <div class="card">
+
+      <img id="img" src="" />
+
+      <h2 id="question"></h2>
+
       <div id="options"></div>
+
     </div>
 
-    <button onclick="nextQuestion()" id="nextBtn">Próxima pergunta ▶</button>
+    <button onclick="nextQuestion()">Próxima ▶</button>
+
+    <p id="feedback"></p>
+
   </div>
 
   <script src="script.js"></script>
