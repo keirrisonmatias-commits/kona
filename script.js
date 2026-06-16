@@ -3,7 +3,7 @@ let current = 0;
 
 const questions = [
   {
-    img: "imagens/banho.jpg",
+    img: "dowload.svg",
     question: "Você vai tomar banho. O que faz?",
     options: [
       { text: "Banho de 20 minutos 🚿", value: -1 },
